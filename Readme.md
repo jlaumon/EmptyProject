@@ -1,6 +1,6 @@
 - Get the .zip from github
 - Change project name in premake.lua
-- Run init_repo.sh to init a git repo and get all the submodules
+- Run init_repo.sh to init a git repo and get all the submodules (can use git bash)
 - Change EASTL branch to one a release branch where the last commit says "updating eabase submodule"
 - Change imgui branch to docking
 - Run premake.bat
