@@ -26,7 +26,7 @@ solution "EmptyProject"
             }
 
         filter { "configurations:Debug" }
-            defines "EA_DEBUG" -- Enables EA_ASSERT
+            
 
         filter {}
         
@@ -47,16 +47,6 @@ solution "EmptyProject"
             "thirdparty/Str/**.cpp",
             "thirdparty/Str/**.natvis",
             "thirdparty/icons/**.h",
-            "thirdparty/rapidjson/include/rapidjson/**.h",
-			"thirdparty/flat_hash_map/**.h",
-            "thirdparty/EASTL/include/**.h",
-            "thirdparty/EASTL/source/**.cpp",
-            "thirdparty/EASTL/test/packages/EAAssert/include/eaassert/*.h",
-            "thirdparty/EASTL/test/packages/EAAssert/source/*.cpp",
-            "thirdparty/EASTL/test/packages/EAStdC/source/**.cpp",
-            "thirdparty/EASTL/test/packages/EAThread/include/eathread/*.h",
-            "thirdparty/EASTL/test/packages/EAThread/source/*.cpp",
-            "thirdparty/EASTL/doc/**.natvis",
         }
 		
 		includedirs 
@@ -65,12 +55,6 @@ solution "EmptyProject"
             "thirdparty",
             "thirdparty/imgui",
             "thirdparty/imgui/backends",
-            "thirdparty/rapidjson/include",
-            "thirdparty/EASTL/include",
-            "thirdparty/EASTL/test/packages/EAAssert/include",
-            "thirdparty/EASTL/test/packages/EABase/include/Common",
-            "thirdparty/EASTL/test/packages/EAStdC/include",
-            "thirdparty/EASTL/test/packages/EAThread/include",
         }
         
         links
