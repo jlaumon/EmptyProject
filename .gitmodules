@@ -4,7 +4,3 @@
 [submodule "thirdparty/Str"]
 	path = thirdparty/Str
 	url = https://github.com/ocornut/str.git
-[submodule "thirdparty/rapidjson"]
-	path = thirdparty/rapidjson
-	url = https://github.com/Tencent/rapidjson.git
-	
