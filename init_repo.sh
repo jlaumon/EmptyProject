@@ -2,7 +2,7 @@
 
 set -e
 
-git init
+git init --initial-branch=main
 
 git config -f .gitmodules --get-regexp '^submodule\..*\.path$' |
     while read path_key path
