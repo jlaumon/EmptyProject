@@ -7,9 +7,6 @@
 [submodule "thirdparty/Str"]
 	path = thirdparty/Str
 	url = https://github.com/ocornut/str.git
-[submodule "thirdparty/flat_hash_map"]
-	path = thirdparty/flat_hash_map
-	url = https://github.com/skarupke/flat_hash_map.git
 [submodule "thirdparty/rapidjson"]
 	path = thirdparty/rapidjson
 	url = https://github.com/Tencent/rapidjson.git
