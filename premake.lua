@@ -24,6 +24,10 @@ solution "EmptyProject"
 		}
 
 		filter { "toolset:msc*" }
+			buildoptions
+			{
+				"/utf-8" 
+			}
 			disablewarnings
 			{
 				"4244", -- 'return': conversion from '__int64' to 'int', possible loss of data
