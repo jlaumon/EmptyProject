@@ -10,6 +10,7 @@ solution "EmptyProject"
 		symbols "On"
 		cppdialect "C++20"
 		dpiawareness "HighPerMonitor"
+		exceptionhandling "Off"
 		flags 
 		{
 			"MultiProcessorCompile",
