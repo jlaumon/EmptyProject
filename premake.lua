@@ -8,31 +8,20 @@ solution "EmptyProject"
 
 		kind "ConsoleApp"
 		symbols "On"
-		cppdialect "C++20"
-		dpiawareness "HighPerMonitor"
+		cppdialect "C++latest"
 		exceptionhandling "Off"
-		flags 
+		rtti "Off"
+		dpiawareness "HighPerMonitor"
+		flags
 		{
 			"MultiProcessorCompile",
 			"FatalWarnings"
-		}
-		
-		defines
-		{
-			"_CRT_SECURE_NO_WARNINGS",
-			"STR_DEFINE_STR32",
-			"STR_SUPPORT_STD_STRING=0",
 		}
 
 		filter { "toolset:msc*" }
 			buildoptions
 			{
 				"/utf-8" 
-			}
-			disablewarnings
-			{
-				"4244", -- 'return': conversion from '__int64' to 'int', possible loss of data
-				"4267", -- 'initializing': conversion from 'size_t' to 'int', possible loss of data
 			}
 
 		filter { "configurations:Debug" }
@@ -73,9 +62,9 @@ solution "EmptyProject"
 			"thirdparty/imgui/backends/imgui_impl_dx11.h",
 			"thirdparty/imgui/backends/imgui_impl_win32.cpp",
 			"thirdparty/imgui/backends/imgui_impl_win32.h",
-			"thirdparty/Str/**.h",
-			"thirdparty/Str/**.cpp",
-			"thirdparty/Str/**.natvis",
+			"thirdparty/Bedrock/Bedrock/*.h",
+			"thirdparty/Bedrock/Bedrock/*.cpp",
+			"thirdparty/Bedrock/Bedrock/*.natvis",
 			"thirdparty/icons/**.h",
 		}
 		
@@ -83,6 +72,7 @@ solution "EmptyProject"
 		{
 			"src",
 			"thirdparty",
+			"thirdparty/Bedrock",
 			"thirdparty/imgui",
 			"thirdparty/imgui/backends",
 		}
