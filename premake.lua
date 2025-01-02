@@ -34,8 +34,8 @@ solution "EmptyProject"
 			targetsuffix "DebugASAN"
 			defines "ASSERTS_ENABLED"
 			optimize "Debug"
-			editandcontinue "Off"	  -- incompatble with ASAN
-			flags "NoIncrementalLink" -- incompatble with ASAN
+			editandcontinue "Off"	  -- incompatible with ASAN
+			flags "NoIncrementalLink" -- incompatible with ASAN
 			sanitize "Address"
 			
 		filter { "configurations:DebugOpt" }
