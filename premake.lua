@@ -6,7 +6,7 @@ solution "EmptyProject"
 
 	project "EmptyProject"
 
-		kind "ConsoleApp"
+		kind "WindowedApp"
 		symbols "On"
 		cppdialect "C++latest"
 		exceptionhandling "Off"
